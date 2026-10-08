@@ -1,0 +1,13 @@
+{
+  "name": "td-tool-dev",
+  "owner": {
+    "name": "Maksim Koltiugin"
+  },
+  "plugins": [
+    {
+      "name": "td-tool-dev",
+      "source": "./",
+      "description": "Conventions for building and releasing a TouchDesigner tool: layout, tests, README, changelog, versioning, About page, tox export and GitHub Release."
+    }
+  ]
+}
