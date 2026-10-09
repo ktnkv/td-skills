@@ -2,7 +2,7 @@
 
 An agent skill with the conventions for building and releasing a TouchDesigner tool, a utility component that is dropped into a project. It covers the repository layout, tests that run in a live TouchDesigner, the README and changelog format, versioning, the About page, tox export and the GitHub Release.
 
-The skill is a plain [Agent Skills](https://agentskills.io) folder, so any agent that reads this format can use it. The repository is also a Claude Code plugin.
+The skill is a plain [Agent Skills](https://agentskills.io) folder, so any agent that reads this format can use it.
 
 ## Install
 
