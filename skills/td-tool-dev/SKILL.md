@@ -33,4 +33,4 @@ A tool is a utility component that is dropped into a project. Rules:
 
 These rules are in English. The README, CHANGELOG, code comments and commit messages of a tool are in English. Talk to the user in the language they use.
 
-Behavior of a specific tool stays in that repository's `CLAUDE.md`. This skill does not replace it.
+Behavior of a specific tool stays in that repository's `CLAUDE.md` / `AGENTS.md` / `GEMINI.md`. This skill does not replace it.

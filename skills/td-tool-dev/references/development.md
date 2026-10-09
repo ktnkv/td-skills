@@ -4,7 +4,7 @@ The source of truth is `src/*.py`. The DAT holds a copy of the text. The `file` 
 
 After an edit, load the text into the DAT. If the extension class changed, pulse `reinitextensions` afterwards.
 
-The public git set is `README.md`, `CHANGELOG.md`, the current `Name.version.tox`, `src/**/*.py` and `tests/**/*.py` with `tests/README.md`. The tool's `CLAUDE.md` and the test `.toe` stay local. Git ignores them, so `git add` on them needs `-f`; do not.
+The public git set is `README.md`, `CHANGELOG.md`, the current `Name.version.tox`, `src/**/*.py` and `tests/**/*.py` with `tests/README.md`. The tool's `CLAUDE.md` / `AGENTS.md` / `GEMINI.md` and the test `.toe` stay local. Git ignores them, so `git add` on them needs `-f`; do not.
 
 Project mutations: validate everything first, then one undo block. On a refusal nothing changes. Do not delete other people's operators without asking. Experiment in a scratch COMP.
 

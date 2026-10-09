@@ -3,6 +3,9 @@
   "owner": {
     "name": "Maksim Koltiugin"
   },
+  "metadata": {
+    "description": "Conventions for building and releasing TouchDesigner tools with a coding agent."
+  },
   "plugins": [
     {
       "name": "td-tool-dev",

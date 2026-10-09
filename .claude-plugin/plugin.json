@@ -1,9 +1,10 @@
 {
   "name": "td-tool-dev",
   "description": "Conventions for building and releasing a TouchDesigner tool: layout, tests, README, changelog, versioning, About page, tox export and GitHub Release.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Maksim Koltiugin"
   },
-  "repository": "https://github.com/ktnkv/td-tool-dev"
+  "repository": "https://github.com/ktnkv/td-tool-dev",
+  "license": "MIT"
 }

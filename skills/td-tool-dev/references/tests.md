@@ -17,4 +17,4 @@ Convention:
 
 The public git set includes `tests/` together with `README.md`, `CHANGELOG.md`, the current tox and `src/`.
 
-A list of checks in a tool's `CLAUDE.md` does not replace the `tests/` folder.
+A list of checks in a tool's `CLAUDE.md` / `AGENTS.md` / `GEMINI.md` does not replace the `tests/` folder.
