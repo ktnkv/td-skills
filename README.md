@@ -9,6 +9,7 @@ Each skill is a plain [Agent Skills](https://agentskills.io) folder under [skill
 | Skill | What it covers |
 | --- | --- |
 | [td&#8209;tool&#8209;dev](skills/td-tool-dev/SKILL.md) | Conventions for building and releasing a TouchDesigner tool, a utility component that is dropped into a project: repository layout, tests that run in a live TouchDesigner, README and changelog format, versioning, the About page, tox export and the GitHub Release. |
+| [td&#8209;patch&#8209;dev](skills/td-patch-dev/SKILL.md) | Conventions for building a TouchDesigner patch, a reusable component with optional inputs and outputs: file name, In/Out operators, grouping into child COMPs, the Interface page built with the bundled [Promote](https://github.com/ktnkv/td-par-promoter) tool, the README annotation, the changelog DAT, versioning, the About page and tox export. |
 
 ## Install
 
