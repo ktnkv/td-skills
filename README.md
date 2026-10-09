@@ -1,49 +1,48 @@
-# td-tool-dev
+# td-skills
 
-An agent skill with the conventions for building and releasing a TouchDesigner tool, a utility component that is dropped into a project. It covers the repository layout, tests that run in a live TouchDesigner, the README and changelog format, versioning, the About page, tox export and the GitHub Release.
+Agent skills for working with TouchDesigner.
 
-The skill is a plain [Agent Skills](https://agentskills.io) folder, so any agent that reads this format can use it.
+Each skill is a plain [Agent Skills](https://agentskills.io) folder under [skills/](skills/), so any agent that reads this format can use it.
+
+## Skills
+
+| Skill | What it covers |
+| --- | --- |
+| [td-tool-dev](skills/td-tool-dev/SKILL.md) | Conventions for building and releasing a TouchDesigner tool, a utility component that is dropped into a project: repository layout, tests that run in a live TouchDesigner, README and changelog format, versioning, the About page, tox export and the GitHub Release. |
 
 ## Install
 
-Once installed, the skill is available in every project and loads when the work is about a TouchDesigner tool.
+Once installed, the skills are available in every project and each one loads when the work matches its description.
 
 ### Claude Code
 
+The repository is a plugin that carries all the skills.
+
 ```bash
-claude plugin marketplace add ktnkv/td-tool-dev
+claude plugin marketplace add ktnkv/td-skills
 ```
 
 ```bash
-claude plugin install td-tool-dev@td-tool-dev
+claude plugin install td-skills@td-skills
 ```
 
-Update with `claude plugin update td-tool-dev@td-tool-dev`.
+Update with `claude plugin update td-skills@td-skills`.
 
-### Codex, Cursor, Gemini CLI, GitHub Copilot in VS Code
+### Other agents
 
-These agents read user skills from `~/.agents/skills/`. Clone the repository anywhere and link the skill folder there:
+The [skills CLI](https://github.com/vercel-labs/skills) installs the skills for Codex, Cursor, Gemini CLI, GitHub Copilot and many other agents. It needs Node.js.
 
 ```bash
-git clone https://github.com/ktnkv/td-tool-dev.git ~/td-tool-dev
+npx skills add ktnkv/td-skills -g
 ```
+
+To install a single skill, name it:
 
 ```bash
-mkdir -p ~/.agents/skills && ln -s ~/td-tool-dev/skills/td-tool-dev ~/.agents/skills/td-tool-dev
+npx skills add ktnkv/td-skills -g --skill td-tool-dev
 ```
 
-Update with `git pull` in the clone.
-
-The [skills CLI](https://github.com/vercel-labs/skills) does the same in one step and knows more agents:
-
-```bash
-npx skills add ktnkv/td-tool-dev -g
-```
-
-## Contents
-
-- [skills/td-tool-dev/SKILL.md](skills/td-tool-dev/SKILL.md): the rules in short and the order of work.
-- [skills/td-tool-dev/references/](skills/td-tool-dev/references/): one file per topic, read when the topic comes up.
+Update with `npx skills update -g`.
 
 ## License
 

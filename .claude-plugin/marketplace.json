@@ -1,16 +1,16 @@
 {
-  "name": "td-tool-dev",
+  "name": "td-skills",
   "owner": {
     "name": "Maksim Koltiugin"
   },
   "metadata": {
-    "description": "Conventions for building and releasing TouchDesigner tools with a coding agent."
+    "description": "Agent skills for working with TouchDesigner."
   },
   "plugins": [
     {
-      "name": "td-tool-dev",
+      "name": "td-skills",
       "source": "./",
-      "description": "Conventions for building and releasing a TouchDesigner tool: layout, tests, README, changelog, versioning, About page, tox export and GitHub Release."
+      "description": "Agent skills for working with TouchDesigner: conventions and workflows for building, testing and releasing TouchDesigner projects and tools."
     }
   ]
 }

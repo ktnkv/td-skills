@@ -1,10 +1,9 @@
 {
-  "name": "td-tool-dev",
-  "description": "Conventions for building and releasing a TouchDesigner tool: layout, tests, README, changelog, versioning, About page, tox export and GitHub Release.",
-  "version": "0.1.1",
+  "name": "td-skills",
+  "description": "Agent skills for working with TouchDesigner: conventions and workflows for building, testing and releasing TouchDesigner projects and tools.",
   "author": {
     "name": "Maksim Koltiugin"
   },
-  "repository": "https://github.com/ktnkv/td-tool-dev",
+  "repository": "https://github.com/ktnkv/td-skills",
   "license": "MIT"
 }
