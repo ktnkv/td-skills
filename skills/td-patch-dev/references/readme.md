@@ -1,6 +1,6 @@
 # README
 
-The README of a patch is an Annotate COMP named `readme` at the root of the patch. `Titletext` is the name of the patch, `Bodytext` is the text.
+The README of a patch is an Annotate COMP named `readme` at the root of the patch. `Titletext` is `README`, `Bodytext` is the text.
 
 ## What to write
 
