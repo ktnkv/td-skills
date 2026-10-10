@@ -18,4 +18,4 @@ Not worth a line: a list of parameters, a description of the signal path, the ve
 
 A new Annotate is 382 by 288 units, far too large for a line or two. Set `nodeWidth` and `nodeHeight` so the box fits the text with no empty area below it, and shrink it again when the text gets shorter. Check the result on a screenshot of the network rather than trusting a formula.
 
-Place it beside the network, not over it: an annotation encloses the operators that lie inside its box.
+Its position is fixed: see structure.md, "Placement of readme and changelog". The box grows up and to the right from that corner; an annotation encloses the operators that lie inside its box, so nothing else may sit there.

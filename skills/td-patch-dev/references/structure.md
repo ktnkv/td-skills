@@ -24,3 +24,12 @@ Operators that form a stable group by meaning go into one child COMP. A patch th
 - A group is a stage of the work, not a count of operators. A COMP with one operator is fine when it is a stage that could expectedly grow: `src` with a single Rectangle TOP, where more operators shaping the seed may follow. An operator that stands alone, with nothing expected beside it, stays at the root without a COMP of its own.
 
 A parameter of an operator at the root is promoted like any other, one level up. But nothing at the root consumes a parameter of the patch: a script or expression that needs a value of its own lives in a child COMP and reads it from that COMP (interface.md, "A value with no parameter behind it").
+
+## Placement of readme and changelog
+
+Positions are `nodeX`, `nodeY`, which is the bottom-left corner of a tile. Both are measured over the operators at the root, not counting `readme` and `changelog`.
+
+- `readme`: `nodeX` is the smallest `nodeX` among them, `nodeY` is the largest `nodeY` among them plus 200.
+- `changelog`: `nodeX = readme.nodeX - 200`, `nodeY = readme.nodeY`.
+
+Move both again whenever the leftmost or the topmost operator changes.
