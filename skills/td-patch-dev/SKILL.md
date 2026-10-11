@@ -20,6 +20,7 @@ A patch is one COMP saved as a `.tox`. Inputs and outputs are both optional: a p
 - The README is a short Annotate COMP sized to its text. See [references/readme.md](references/readme.md).
 - The changelog is a Text DAT inside the patch. See [references/changelog.md](references/changelog.md).
 - The version is SemVer and is the same in the changelog, on About and in the file name. See [references/versioning.md](references/versioning.md).
+- A patch built from other patches and kept in a folder with them is a composite patch. Whether a patch is one is the user's decision. See [references/composite-patch.md](references/composite-patch.md).
 - Before saving the tox read [references/export.md](references/export.md).
 
 ## Order of work
