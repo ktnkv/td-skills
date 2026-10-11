@@ -30,7 +30,3 @@ A patch is one COMP saved as a `.tox`. Inputs and outputs are both optional: a p
 3. Update the `readme` annotation and the `changelog` DAT.
 4. Propose a version from the changes made, agree it with the user, write it on About.
 5. Export the tox.
-
-## Language
-
-These rules are in English. The readme, the changelog and operator names of a patch are in English. Talk to the user in the language they use.
