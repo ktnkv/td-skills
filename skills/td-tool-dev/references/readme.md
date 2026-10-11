@@ -1,6 +1,6 @@
 # README
 
-The text is in English. First the name of the tool and a short paragraph on why such a tool is worth having. Then exactly three sections, in this order. Do not add other sections.
+First the name of the tool and a short paragraph on why such a tool is worth having. Then exactly three sections, in this order. Do not add other sections.
 
 ```markdown
 # Name

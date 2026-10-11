@@ -1,6 +1,6 @@
 # Changelog
 
-Entries follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), in English. A version lists only the categories that have something in them, in this order:
+Entries follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). A version lists only the categories that have something in them, in this order:
 
 - **Added** — new functionality
 - **Changed** — changed existing functionality

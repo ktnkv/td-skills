@@ -28,9 +28,3 @@ A tool is a utility component that is dropped into a project. Rules:
 4. Agree the version with the user, write it on About.
 5. Export the tox.
 6. Release (commit, push, tag, GitHub Release) only when the user asks for it. It publishes outside the machine; approval for an export is not approval for a release.
-
-## Language
-
-These rules are in English. The README, CHANGELOG, code comments and commit messages of a tool are in English. Talk to the user in the language they use.
-
-Behavior of a specific tool stays in that repository's `CLAUDE.md` / `AGENTS.md` / `GEMINI.md`. This skill does not replace it.
