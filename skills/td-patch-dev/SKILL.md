@@ -5,9 +5,10 @@ description: >-
   component with optional inputs and outputs. Covers
   the file name, In/Out operators, grouping into child COMPs, the Interface
   page built with the bundled Promote tool, the README annotation, the
-  changelog DAT, SemVer, the About page and tox export. Use when creating or
-  changing a patch, exposing its parameters, bumping its version, or saving it
-  as a tox.
+  changelog DAT, SemVer, the About page and tox export, and the two-level
+  layout of an audio-reactive or otherwise data-driven patch. Use when creating
+  or changing a patch, exposing its parameters, making it react to audio or
+  other live data, bumping its version, or saving it as a tox.
 ---
 # TouchDesigner patch development
 
@@ -21,6 +22,7 @@ A patch is one COMP saved as a `.tox`. Inputs and outputs are both optional: a p
 - The changelog is a Text DAT inside the patch. See [references/changelog.md](references/changelog.md).
 - The version is SemVer and is the same in the changelog, on About and in the file name. See [references/versioning.md](references/versioning.md).
 - A patch built from other patches and kept in a folder with them is a composite patch. Whether a patch is one is the user's decision. See [references/composite-patch.md](references/composite-patch.md).
+- A patch whose parameters are driven by fast-changing outside data, most often an audio-reactive one, is a reactive patch and is built in two levels: a self-sufficient `inner_interface` with every important parameter exposed, and an upper level that takes the data, drives some parameters with expressions and exposes only the ones set by hand. Which parameters are driven is the user's decision. See [references/reactive-patch.md](references/reactive-patch.md).
 - Before saving the tox read [references/export.md](references/export.md).
 
 ## Order of work

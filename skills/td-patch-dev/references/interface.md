@@ -42,6 +42,8 @@ A script or expression often needs a value that is not a parameter of any operat
 
 The same holds for a parameter driven by an expression. Promote refuses it; promote the value the expression reads instead. `noise1.par.amp` with the expression `parent().par.Gain * 2` stays as it is, and `Gain` on the child COMP is promoted.
 
+An expression that reads outside data, such as audio features, does not belong inside the patch at all: see reactive-patch.md.
+
 ## What the interface cannot hold
 
 Promote refuses these, and a patch does not expose them:

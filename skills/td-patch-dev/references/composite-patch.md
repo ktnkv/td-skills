@@ -15,6 +15,8 @@ What does not make a patch composite:
 
 - Size or difficulty. A creative patch, one of many, that carries out one visual or sonic idea stays an ordinary patch however involved its network is, whatever its family.
 
+A reactive patch (reactive-patch.md) is kept as a composite patch by default, with `inner_interface` as its only part.
+
 ## Layout
 
 A composite patch has a folder of its own in the library, named after the patch. It does not sit among the ordinary patches.
