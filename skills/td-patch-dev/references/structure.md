@@ -12,6 +12,8 @@ The root of the patch holds only:
 
 In and Out operators have names that say what goes through them: `in_mask`, `out_dmx`. A single one may keep its default name. Their order on the connectors is part of the public interface (versioning.md).
 
+A COMP can show one of its operators on its tile through the `opviewer` parameter, and that is usually an Out operator. Before renaming an Out operator, at the root or in a child COMP, read `opviewer` on its parent. If it names that operator, as `./out1` does, set it to the new name in the same step: the parameter holds a path and does not follow the rename, so the tile goes blank with no error.
+
 Something the patch needs from outside comes in through an In operator, not through a parameter that holds an operator path.
 
 ## Grouping
