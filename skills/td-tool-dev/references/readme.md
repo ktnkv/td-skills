@@ -22,3 +22,5 @@ What the tool changes in the project, and what remains when the tool is off or a
 ```
 
 The first step of `How to use` names the tox with a `*` in place of the version, so the README does not change at a release. Without a release page, say "from this repository" instead of the link.
+
+The component carries a short digest of this file in its `readme` annotation. See component.md.

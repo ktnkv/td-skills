@@ -13,6 +13,7 @@ A tool is a utility component that is dropped into a project. Rules:
 
 - Starting a new tool: [references/new-tool.md](references/new-tool.md). Every tool has an `Active` parameter the user can switch off.
 - Day-to-day development: [references/development.md](references/development.md). If the tool patches `/ui` or `/sys`, also [references/ui-hook.md](references/ui-hook.md).
+- Inside the component there is a `readme` annotation and a `changelog` DAT, and no comment on the tile. See [references/component.md](references/component.md).
 - The README has three sections: How to use, How it works, Limitations. See [references/readme.md](references/readme.md).
 - The repository root has `tests/`. See [references/tests.md](references/tests.md).
 - The version is SemVer and is the same in the changelog, on About and in the tox name. See [references/versioning.md](references/versioning.md) and [references/changelog.md](references/changelog.md).
@@ -24,7 +25,7 @@ A tool is a utility component that is dropped into a project. Rules:
 
 1. Change `src/`, load it into the DAT.
 2. Add or update a file in `tests/`, run the folder.
-3. Update README and CHANGELOG.
+3. Update README and CHANGELOG, then the `readme` annotation and the `changelog` DAT inside the component.
 4. Agree the version with the user, write it on About.
 5. Export the tox.
 6. Release (commit, push, tag, GitHub Release) only when the user asks for it. It publishes outside the machine; approval for an export is not approval for a release.

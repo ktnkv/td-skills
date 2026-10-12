@@ -9,6 +9,8 @@ Entries follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). A versi
 - **Fixed** — a bug fix
 - **Security** — security-related changes
 
+The component carries a copy of `CHANGELOG.md` in its `changelog` DAT. See component.md.
+
 The section of the new version is the body of its GitHub Release. Changes of other versions do not go into it.
 
 ```markdown
