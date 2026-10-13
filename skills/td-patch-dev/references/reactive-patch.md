@@ -37,7 +37,8 @@ A parameter set by hand is one a person sets once and leaves, or one they move l
 
 Which parameters the machine drives, and from what, is the user's decision. Do not invent a mapping.
 
-- When an existing patch is being reorganized, keep the expressions that are active and carry them over. An expression left on a parameter in constant mode is not active: the parameter is set by hand.
+- When an existing patch is being reorganized, keep the expressions that are active and carry them over.
+- An expression left on a parameter in constant mode is ambiguous: it may be a leftover, or a reaction that was switched off for a while. Ask the user whether the parameter is set by hand or driven by the machine. Do not decide either way yourself.
 - When there are none and the user has not said, ask which parameters to drive and from which data.
 
 The agent's part is to sort the parameters into the two ways and to build the structure correctly.
